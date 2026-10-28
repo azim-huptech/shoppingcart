@@ -1,10 +1,14 @@
-# 🛍️ MiniStore — Minimalist Ecommerce & Cart
+# 🛍️ Objet — Minimalist Ecommerce & Cart
 
 A modern, responsive mini e-commerce application built with **React 19**, **Vite**, **Redux Toolkit**, and styled with a clean, minimalist **Tailwind CSS** design.
 
 Featuring an end-to-end shopping workflow: product catalog with real-time search, multi-criteria filtering, pagination, complete Redux-powered cart operations (add, update, remove), and a Formik + Yup validated signup flow with local storage persistence.
 
 ---
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/62833798-e817-4c81-b295-f5ec3853ea31" />
+<img width="1366" height="644" alt="image" src="https://github.com/user-attachments/assets/1c2f6267-fdd1-45dc-8012-34a42e408f89" />
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/fd4166a6-cb85-4b1c-8bd3-089c473dc337" />
+
 
 ## ✨ Features
 
@@ -19,6 +23,8 @@ Featuring an end-to-end shopping workflow: product catalog with real-time search
   * Real-time subtotal, free shipping logic (orders over $50), and coupon discount support (`SAVE10` for 10% off).
   * Safe floating-point price arithmetic (`Math.round(total * 100) / 100`).
 * **Persistence**: Automatically synchronizes cart items to browser `localStorage`.
+
+<img width="1366" height="646" alt="image" src="https://github.com/user-attachments/assets/dfebf21b-8839-45fd-827d-e45f3677a1d2" />
 
 ---
 
@@ -38,6 +44,8 @@ Featuring an end-to-end shopping workflow: product catalog with real-time search
   * Previous / Next and direct page jump buttons.
 * **Empty States & Reset**: Friendly feedback when no products match, with a one-click *"Reset All Filters"* button.
 
+<img width="1366" height="689" alt="image" src="https://github.com/user-attachments/assets/f2855449-21dc-4e62-b386-97edf5c5adab" />
+
 ---
 
 ### 📝 3. Signup Form (Formik + Yup)
@@ -56,6 +64,10 @@ Featuring an end-to-end shopping workflow: product catalog with real-time search
   * Displays user profile card upon registration and surfaces active user badge (`Hi, <Name>`) in the navigation bar.
   * Logout / account switching capability.
 
+<img width="1366" height="640" alt="image" src="https://github.com/user-attachments/assets/0cefec9b-f02e-4388-a481-57dc071dafab" />
+<img width="1247" height="618" alt="image" src="https://github.com/user-attachments/assets/ae56a168-cf1a-4e94-9c27-f5915373d8a9" />
+
+
 ---
 
 ### 🎨 4. Minimalist UI/UX Design
@@ -63,6 +75,7 @@ Featuring an end-to-end shopping workflow: product catalog with real-time search
 * Typography powered by **Plus Jakarta Sans**.
 * Crisp iconography using **Lucide React**.
 * Smooth transitions, subtle border styling, and responsive layout across mobile, tablet, and desktop viewports.
+
 
 ---
 
